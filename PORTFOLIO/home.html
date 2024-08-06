@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISHAL Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>VISHAL Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h2>WELCOME TO MY PORTFOLIO</h2>
+            <p>Hi, I'm vishal, a web developer. I create amazing projects and solutions. Explore my work below.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate as web developer with experience of 5 years . I enjoyed and loved my passion to do my work.</p>
+            <img id='tech' src="WhatsApp Image 2024-08-06 at 15.20.09_68254852.jpg" alt="Photo of VISHAL">
+            <style>
+                #tech{
+                    height: 250px;
+                    width:250px;}
+            </style>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-item">
+                <img src="download.jpeg" alt="Project 1">
+                <p><b>A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences.</b></p>
+            </div>
+            <div class="portfolio-item">
+                <h3>LANDPAGE</h3>
+                <img src="download (1).jpeg" alt="Project 2">
+                <p><b> A landing page is a standalone web page, created specifically for a marketing or advertising campaign. It's where a visitor “lands” after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.</b></p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 VISHAL. All rights reserved.</p>
+            <p><a href="mailto:your-UEFI2@gmail.com">vishal@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
